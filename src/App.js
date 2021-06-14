@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <h2>React Router</h2>
         <Switch>
-          <Route path="/routerApp" component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/details/:id" component={Details} />
         </Switch>
       </div>

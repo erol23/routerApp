@@ -16,7 +16,7 @@ const Details = (props) => {
       <p>{post?.id}</p>
       <p>{post?.title}</p>
       <p>{post?.body}</p>
-      <button onClick = {() => history.push("/routerApp")}>Go Home</button>
+      <button onClick = {() => history.push("/")}>Go Home</button>
     </div>
   );
 };
